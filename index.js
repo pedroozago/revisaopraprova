@@ -51,4 +51,4 @@ server.put('/tarefa/:id', (req, res) => {
     return res.send();
 })
 
-server.listen(process.env.PORT || 3000);
+server.listen(3000);
